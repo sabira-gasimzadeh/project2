@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+}
+
+
+.header-top {
+    background-color: #005cb9;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.nav-icons {
+    display: flex;
+    gap: 30px;
+    font-size: larger;
+    padding-top: 15px;
+}
+
+
+.search-icon button {
+    background-color: #005cb9;
+    border: 4px solid #005cb9;
+    color: #ffffff;
+    font-size: medium;
+}
+
+.search-icon input {
+  font-size: large;
+}
+
+.search-icon:hover {
+  transform: translateX(5px);
+  transition: 0.5s ease in;
+}
+
+.telehealth-icon button {
+    background-color: #599ad3;
+    border: 4px solid #599ad3;
+    font-size: medium;
+}
+
+.telehealth-icon button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.telehealth-icon:hover {
+  transform: translateX(5px);
+
+}
+
+
+
+.virtual-ed-icon button {
+    background-color:#d7374b ;
+    border: 4px solid #d7374b ;
+    font-size: medium;
+}
+
+.virtual-ed-icon button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.virtual-ed-icon:hover {
+  transform: translateX(5px);
+}
+
+
+.donate-icon  button {
+    background-color: #77c043;
+    border: 4px solid #77c043;
+    font-size: medium;
+}
+
+.donate-icon button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.donate-icon button a i {
+    padding-right: 7px;
+}
+
+
+.donate-icon:hover {
+  transform: translateX(5px);
+}
+
+
+.header-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+
+nav {
+    padding-top: 20px;
+    text-align: center;
+    font-size: small;
+  }
+  
+  nav ul ul {
+    display: none;
+  }
+  
+    nav ul li:hover > ul {
+      display: block;
+    }
+  
+  
+  nav ul {
+    background: #4b545f; 
+    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+    background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding: 0 20px;
+    border-radius: 10px;  
+    list-style: none;
+    position: relative;
+    display: inline-table;
+  }
+    nav ul:after {
+      content: ""; clear: both; display: block;
+    }
+  
+    nav ul li {
+      float: left;
+    }
+      nav ul li:hover {
+        background: #4b545f;
+        background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+        background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+        background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+      }
+        nav ul li:hover a {
+          color: #fff;
+        }
+      
+      nav ul li a {
+        display: block; padding: 25px 40px;
+        color: #757575; text-decoration: none;
+      }
+        
+      
+    nav ul ul {
+      background: #5f6975; border-radius: 0px; padding: 0;
+      position: absolute; top: 100%;
+    }
+      nav ul ul li {
+        float: none; 
+        border-top: 1px solid #6b727c;
+        border-bottom: 1px solid #575f6a; position: relative;
+      }
+        nav ul ul li a {
+          padding: 15px 40px;
+          color: #fff;
+        } 
+          nav ul ul li a:hover {
+            background: #4b545f;
+          }
+      
+    nav ul ul ul {
+      position: absolute; left: 100%; top:0;
+    }
+
+.icon-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.icon-blue {
+  border: 5px solid #3e82f7;
+  border-radius: 20%;
+  background-color: #0f62f2;
+}
+
+.icon-blue a {
+  color: #fff;
+  text-decoration: none;
+} 
+
+.icon-blue:hover {
+  transform: translateX(5px);
+  transition: 0.2s ease-in;
+}
+
+.icon-green {
+  border: 5px solid #8ce49c;
+  border-radius: 20%;
+  background-color: #4ea75e;
+}
+
+.icon-green a {
+  color: #fff;
+  text-decoration: none;
+} 
+
+.icon-green:hover {
+  transform: translateX(5px);
+  transition: 0.2s ease-in;
+}
+
+
+.icon-purple {
+  border: 5px solid #eb42df;
+  border-radius: 20%;
+  background-color: #99098f;
+}
+
+.icon-purple a {
+  color: #fff;
+  text-decoration: none;
+} 
+
+.icon-purple:hover {
+  transform: translateX(5px);
+  transition: 0.2s ease-in;
+}
+
+.icon-orange {
+  border: 5px solid #ffb508;
+  border-radius: 20%;
+  background-color: #e3a412;
+}
+
+.icon-orange a {
+  color: #fff;
+  text-decoration: none;
+} 
+
+.icon-orange:hover {
+  transform: translateX(5px);
+  transition: 0.2s ease-in;
+}
+
+.icon-pink {
+  border: 5px solid #fa46af;
+  border-radius: 20%;
+  background-color: #e30b89;
+}
+
+.icon-pink a {
+  color: #fff;
+  text-decoration: none;
+} 
+
+.icon-pink:hover {
+  transform: translateX(5px);
+  transition: 0.2s ease-in;
+}
+
+.icon-darkblue {
+  border: 5px solid #212b91;
+  border-radius: 20%;
+  background-color: #050e78;
+}
+
+.icon-darkblue a {
+  color: #fff;
+  text-decoration: none;
+} 
+.icon-darkblue:hover {
+  transform: translateX(5px);
+  transition: 0.2s ease-in;
+}
+
+.news-section {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+  font-size: medium;
+  align-items: center;
+  column-gap: 60px;
+}
+
+.news-section strong,a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.row > a.btn {
+  border: 0;
+  margin: 15px auto 0;
+  font-size: 15px;
+  padding: 10px 20px;
+  background-color: #005cb9;
+  color: #fff;
+  border-radius: 10px;
+  width: 140px;
+}
+
+.row > a.btn:hover {
+  transform: translateX(5px);
+  transition: 0.7s ease-in;
+}
+
+
+.footer-top {
+  border: 0;
+  margin: 15px auto 0;
+  font-size: 15px;
+  padding: 10px 20px;
+  background-color: rgb(0,92,185);
+  color: #fff;
+  padding-left: 500px;
+}
+
+.footer-top > .row {
+  align-items: center;
+  padding-inline-start: 100px;
+}
+
+.footer-top a {
+  color: rgb(0,92,185);
+  background-color: #fff;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  font-size: large;
+}
+
+.footer-main {
+  display: flex;
+  font-size: large;
+  color: #005cb9;
+}
+
+.footer-main > .locations > ul{
+  padding: 15px;
+}
+
+.footer-locations ul.social-links li a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  text-align: center;
+}
+
+.footer-locations ul li a {
+  text-decoration: none;
+  color: #636569;
+}
+
+.footer-main ul:hover {
+  color: gray;
+}
+
+
+.footer-bottom {
+  display: flex;
+  font-size: large;
+}
+
+.footer-bottom img {
+  height: 16px;
+}
+
+.footer-bottom > .col-md-6 no-padding {
+  display: flex;
+  font-size: medium;
+}
