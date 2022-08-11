@@ -281,6 +281,13 @@ nav {
   transition: 0.2s ease-in;
 }
 
+marquee {
+  padding-top: 45px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+}
+
 .news-section {
   display: flex;
   padding-top: 50px;
@@ -362,6 +369,11 @@ nav {
 
 .footer-main ul:hover {
   color: gray;
+}
+
+.map-iframe {
+  width: 60%;
+  padding-left: 10%;
 }
 
 
